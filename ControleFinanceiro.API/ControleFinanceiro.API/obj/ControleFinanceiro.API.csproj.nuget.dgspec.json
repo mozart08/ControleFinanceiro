@@ -28,14 +28,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj": {
-                "projectPath": "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj"
-              },
-              "C:\\controlefinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj": {
-                "projectPath": "C:\\controlefinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -71,130 +64,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj",
-        "projectName": "ControleFinanceiro.BLL",
-        "projectPath": "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj",
-        "packagesPath": "C:\\Users\\manjos\\.nuget\\packages\\",
-        "outputPath": "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\manjos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/tecnologiaunica/Satelital/_packaging/satelital/nuget/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.Extensions.Identity.Stores": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\controlefinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\controlefinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj",
-        "projectName": "ControleFinanceiro.DAL",
-        "projectPath": "C:\\controlefinanceiro\\ControleFinanceiro.DAL\\ControleFinanceiro.DAL.csproj",
-        "packagesPath": "C:\\Users\\manjos\\.nuget\\packages\\",
-        "outputPath": "C:\\controlefinanceiro\\ControleFinanceiro.DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\manjos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/tecnologiaunica/Satelital/_packaging/satelital/nuget/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj": {
-                "projectPath": "C:\\controlefinanceiro\\ControleFinanceiro.BLL\\ControleFinanceiro.BLL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
