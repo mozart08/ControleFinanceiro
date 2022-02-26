@@ -5,7 +5,8 @@ using System.Text;
 
 namespace ControleFinanceiro.BLL.Models
 {
-    class Funcao : IdentityRole<string>
+    public class Funcao : IdentityRole<string>
     {
+        public string Descricao { get; set; }
     }
 }
